@@ -41,7 +41,7 @@ with st.sidebar:
     )
 
     uploaded_file = st.file_uploader(
-    "Choose a file", accept_multiple_files=True)
+    "Choose a file")
 
     st.markdown("-----")
 
