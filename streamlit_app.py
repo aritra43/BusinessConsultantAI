@@ -40,7 +40,7 @@ with st.sidebar:
         key="text_area_1"
     )
 
-    uploaded_files = st.file_uploader(
+    uploaded_file = st.file_uploader(
     "Choose a file", accept_multiple_files=True)
 
     st.markdown("-----")
